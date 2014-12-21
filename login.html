@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login to Cheapo Mail</title>
+    <link rel=stylesheet type="text/css" href="login.css">
+    <script type="text/javascript" src="login.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js"></script>
+</head>
+<body>
+    <form id="logininfo"> 
+        <fieldset>
+            <div id="info">
+                <strong>Username</strong><br> <input type="text" id ="username" name="username" class="textfield"> <br>
+                <strong>Password</strong><br> <input type="password" id ="password" name="password" class="textfield"> <br>
+                <button type= "button" id="login" onclick= "validate();"> <strong> Login </strong> </button>
+            </div>
+        </fieldset>
+    </form>
+    <div id= "login_status"></div>
+</body>
+</html>
