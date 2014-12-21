@@ -1,0 +1,212 @@
+/* ------------------ HOMEPAGE ------------------ */
+
+body 
+{
+    font-family: Calibri;
+    background-image: url("body1.jpg");
+}
+
+
+#pagecontent
+{
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1
+{
+    margin: 0 auto;
+}
+
+/* -------------------- MENUBAR -------------------- */
+
+.menu_options
+{	
+	display: block;
+}
+
+button 
+{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dobutton 
+{
+    background-color: #c5c5c5;
+    color: #FFFFFF;
+    width: 440px;
+    padding: 10px 0;
+}
+
+.dobutton:hover 
+{
+    background-color: green;
+
+}
+
+
+#logout 
+{
+    background-color: #c5c5c5;
+    color: #FFFFFF;
+    float: right;
+    padding: 10px 0;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+#logout:hover 
+{
+    background-color: #969494;
+
+}
+
+/* ------------------- COMPOSE ------------------- */
+
+#header 
+{
+    padding: 10px 0;
+    margin-left: 18px;
+}
+
+#new_message 
+{
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 1px 0;
+}
+
+fieldset 
+{
+    background-color: #cecccc;
+}
+
+.textfield 
+{
+    width: 100%;    
+}
+
+textarea 
+{
+    width: 100%;  
+    height: 400px;
+} 
+
+#Send {
+    background-color: #000000;
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#Send:hover {
+    background-color: green;
+}
+
+/* -------------------- INBOX --------------------- */
+
+#table_header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header1 {
+    margin: auto;
+    padding: 10px 40px 10px 16px;
+}
+
+#header2 {
+    margin: auto;
+    padding: 10px 60px;
+}
+
+#header3 {
+    margin: auto;
+    padding: 10px 400px;
+}
+
+#table_header td {
+    border-bottom: 1px solid #CECCCC;
+}
+
+#table_header tr:hover td {
+    background-color: #969494;
+    cursor: pointer;
+}
+
+/* ------------------- READ ------------------------*/
+
+.readme {
+    border: 1px solid white;    
+    width: 1200px;
+    margin-left: 70px;
+}
+
+#subject2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#from {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    color: #707070;
+}
+
+hr {
+    border: 1px solid #969494;
+}
+
+#hr2 {
+    border: 1px solid #707070;
+    /* width: 1300px; */
+}
+
+#message_body {
+    margin-left: 50px;
+}
+
+.unread {
+    font-weight: bold;   
+}
+
+/* -------------------- PEOPLE ---------------------- */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    border-color: #CECCCC;
+}
+
+h2 {
+    text-align: center;
+}
+
+th {
+    margin: auto;
+    padding: 0 90px;   
+    background-color: #222222;
+} 
+
+td {
+    padding: 5px 70px;
+    background-color: #DDDDDD;
+    color: #222222;
+}
+
+
+
